@@ -9,6 +9,8 @@ class Mahasiswa:
         self.Jurusan = jurusan
         # Parameter ini digunakan untuk menyimpan NIM (Nomor Induk Mahasiswa) yang akan diassign ke atribut Nim dalam objek.
 
+        #made by M. FEBRI ARDIANSYAH 
+        #NPM : G1A022049
     def tampilkan_info(self):
         print('-----------------------------------')
         print('Nama Mahasiswa :', self.Nama)
@@ -18,7 +20,8 @@ class Mahasiswa:
 # Dengan menggunakan method ini, kita dapat dengan mudah mencetak informasi lengkap mengenai seorang mahasiswa,
 # termasuk nama, NIM, dan nama jurusan yang sedang ditempuh oleh mahasiswa tersebut.
 
-
+ #made by M. FEBRI ARDIANSYAH 
+ #NPM : G1A022049
 class Jurusan:
     def __init__(self, nama_jurusan):
         self.namaJurusan = nama_jurusan
@@ -44,7 +47,8 @@ class Jurusan:
             # mengeluarkan output nim mahasiswa
             print()
 
-
+ #made by M. FEBRI ARDIANSYAH 
+ #NPM : G1A022049
 class Universitas:
 
     def __init__(self, nama_universitas):
@@ -68,7 +72,9 @@ class Universitas:
             # urut dan nama jurusan (jurusan.namaJurusan).
         print()
 
-
+ #made by M. FEBRI ARDIANSYAH 
+  #NPM : G1A022049
+    
 # Buat objek Universitas dengan nama "XYZ"
 xyz_university = Universitas("XYZ")
 
